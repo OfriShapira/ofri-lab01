@@ -17,13 +17,13 @@ stages{
       
       stage('test'){
           steps{
-              echo "test"
+              echo "test - git jenkins"
           }
       }
       
       stage('deploy'){
           steps{
-              echo "deploy"
+              echo "deploy - git jenkins"
           }
       }
     }
